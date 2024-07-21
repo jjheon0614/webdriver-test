@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+webdriver_signup_TS,,,,20-07-2024 23:23:29,20-07-2024 23:23:30,1.679s,FAILED
+,,,,,,,
+Test Cases/signup_tc,,,,20-07-2024 23:23:29,20-07-2024 23:23:30,1.391s,FAILED
+"startApplication(""/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk"", true)",,,,20-07-2024 23:23:29,20-07-2024 23:23:30,1.071s,FAILED

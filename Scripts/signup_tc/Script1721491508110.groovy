@@ -26,5 +26,7 @@ Mobile.tap(findTestObject('Object Repository/android.widget.TextView - Sign up')
 
 Mobile.verifyElementExist(findTestObject('Object Repository/android.widget.TextView -'), 0)
 
+Mobile.takeScreenshotAsCheckpoint("screenshotCheckpoint")
+
 Mobile.closeApplication()
 

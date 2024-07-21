@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+webdriver_signup_TS,,,,21-07-2024 20:19:46,21-07-2024 20:20:01,14.850s,PASSED
+,,,,,,,
+Test Cases/signup_tc,,,,21-07-2024 20:19:47,21-07-2024 20:20:01,14.646s,PASSED
+"startApplication(""/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk"", true)",,,,21-07-2024 20:19:47,21-07-2024 20:19:57,10.156s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Login""), 0)",,,,21-07-2024 20:19:57,21-07-2024 20:19:58,0.645s,PASSED
+"tap(findTestObject(""Object Repository/android.widget.TextView - Sign up""), 0)",,,,21-07-2024 20:19:58,21-07-2024 20:19:59,0.902s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/android.widget.TextView -""), 0)",,,,21-07-2024 20:19:59,21-07-2024 20:20:00,1.091s,PASSED
+closeApplication(),,,,21-07-2024 20:20:00,21-07-2024 20:20:01,1.592s,PASSED

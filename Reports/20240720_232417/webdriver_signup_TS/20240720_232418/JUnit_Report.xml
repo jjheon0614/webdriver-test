@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="webdriver_signup_TS" time="16.171" tests="1" failures="0" errors="0">
+   <testsuite name="webdriver_signup_TS" tests="1" failures="0" errors="0" time="16.171" skipped="0" timestamp="20-07-2024T23:24:21" hostname="jaeheonjeong - localhost" id="Test Suites/webdriver_signup_TS">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418"/>
+         <property name="logFiles" value="/Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418/execution0.log, /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418/appium_error.log, /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jaeheonjeong - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.1"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/signup_tc" time="15.893" classname="Test Cases/signup_tc" status="PASSED">
+         <system-out><![CDATA[20-07-2024T23:24:22 - [TEST_CASE][PASSED] - Test Cases/signup_tc: Test Cases/signup_tc
+
+20-07-2024T23:24:22 - [TEST_STEP][PASSED] - startApplication("/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk", true): Started application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - Starting application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.4.0/bin/node"
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.4.0/bin:/Users/jaeheonjeong/.npm-global/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/iTerm.app/Contents/Resources/utilities:/Users/jaeheonjeong/.orbstack/bin:/Users/jaeheonjeong/.katalon/9.5.0/Katalon_Studio_Engine_MacOS-9.5.0/Katalon Studio Engine.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - APPIUM_HOME: /Users/jaeheonjeong/.appium
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - appium outlog: /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418/appium.log
+
+20-07-2024T23:24:22 - [MESSAGE][INFO] - appium errlog: /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240720_232417/webdriver_signup_TS/20240720_232418/appium_error.log
+
+20-07-2024T23:24:25 - [MESSAGE][INFO] - Appium server started on port 49,607
+
+20-07-2024T23:24:33 - [MESSAGE][PASSED] - Started application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+20-07-2024T23:24:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Login"), 0): Tapped on element 'Object Repository/android.widget.TextView - Login'
+
+20-07-2024T23:24:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-07-2024T23:24:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Login'
+
+20-07-2024T23:24:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Sign up"), 0): Tapped on element 'Object Repository/android.widget.TextView - Sign up'
+
+20-07-2024T23:24:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-07-2024T23:24:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Sign up'
+
+20-07-2024T23:24:34 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/android.widget.TextView -"), 0): Element 'Object Repository/android.widget.TextView -' is exist
+
+20-07-2024T23:24:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-07-2024T23:24:35 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView -' is exist
+
+20-07-2024T23:24:35 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+20-07-2024T23:24:38 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-07-2024T23:24:21 - [TEST_SUITE][PASSED] - webdriver_signup_TS: Test Cases/signup_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
