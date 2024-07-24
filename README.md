@@ -1,7 +1,4 @@
 # webdriver-test
 
 hello
-
-hello
-
-hi
+update
