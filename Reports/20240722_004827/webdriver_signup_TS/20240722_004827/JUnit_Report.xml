@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="webdriver_signup_TS" time="12.155" tests="1" failures="0" errors="0">
+   <testsuite name="webdriver_signup_TS" tests="1" failures="0" errors="0" time="12.155" skipped="0" timestamp="22-07-2024T00:48:28" hostname="jaeheonjeong - localhost" id="Test Suites/webdriver_signup_TS">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="/Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827"/>
+         <property name="logFiles" value="/Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827/execution0.log, /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827/appium_error.log, /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827/appium.log"/>
+         <property name="attachments" value="keyes/keyes-screenshotCheckpoint.png"/>
+         <property name="hostName" value="jaeheonjeong - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.11.1&quot;}}}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="2.11.1"/>
+         <property name="deviceModel" value="sdk_gphone64_arm64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_arm64 - Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/signup_tc" time="12.106" classname="Test Cases/signup_tc" status="PASSED">
+         <system-out><![CDATA[22-07-2024T00:48:28 - [TEST_CASE][PASSED] - Test Cases/signup_tc: Test Cases/signup_tc
+
+22-07-2024T00:48:28 - [TEST_STEP][PASSED] - startApplication("/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk", true): Started application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - Starting application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.4.0/bin/node"
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.4.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Katalon Studio Free Arm64.app/Contents/Eclipse/jre/Contents/Home/bin:/usr/local/bin/
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - APPIUM_HOME: /Users/jaeheonjeong/.appium
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - appium outlog: /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827/appium.log
+
+22-07-2024T00:48:28 - [MESSAGE][INFO] - appium errlog: /Users/jaeheonjeong/Desktop/webdriver-test/Reports/20240722_004827/webdriver_signup_TS/20240722_004827/appium_error.log
+
+22-07-2024T00:48:30 - [MESSAGE][INFO] - Appium server started on port 60,974
+
+22-07-2024T00:48:36 - [MESSAGE][PASSED] - Started application: '/Users/jaeheonjeong/Desktop/2024SEM2/Capstone B/Sample App/android.wdio.native.app.v1.0.8/android.wdio.native.app.v1.0.8.apk'
+
+22-07-2024T00:48:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Login"), 0): Tapped on element 'Object Repository/android.widget.TextView - Login'
+
+22-07-2024T00:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-07-2024T00:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Login'
+
+22-07-2024T00:48:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/android.widget.TextView - Sign up"), 0): Tapped on element 'Object Repository/android.widget.TextView - Sign up'
+
+22-07-2024T00:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-07-2024T00:48:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/android.widget.TextView - Sign up'
+
+22-07-2024T00:48:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/android.widget.TextView -"), 0): Element 'Object Repository/android.widget.TextView -' is exist
+
+22-07-2024T00:48:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-07-2024T00:48:38 - [MESSAGE][PASSED] - Element 'Object Repository/android.widget.TextView -' is exist
+
+22-07-2024T00:48:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("screenshotCheckpoint"): Screenshot is taken
+
+22-07-2024T00:48:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+22-07-2024T00:48:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-screenshotCheckpoint.png]]
+
+22-07-2024T00:48:39 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+22-07-2024T00:48:40 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-07-2024T00:48:28 - [TEST_SUITE][PASSED] - webdriver_signup_TS: Test Cases/signup_tc]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
